@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    background-color: black;
+    height: 5vh;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.links {
+    text-indent: 10px;
+    color: white;
+}
+
+.mail {
+    display: flex;
+    text-indent: 20px;
+    margin-right: 20px;
+    color: white;
+
+}
+
+.navBar2 {
+    /* background-image:url(./pexels-emily-ranquist-1205651.jpg); */
+    /* background-color: aquamarine; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    height: 10vh;
+    background: transparent;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    display: flex;
+    text-indent: 15px;
+    color: white;
+
+}
+
+.logo li {
+    list-style-type: none;
+    color: orange;
+
+}
+
+.links2 {
+    margin-top: 35px;
+    display: flex;
+    text-indent: 15px;
+    margin-right: 20px;
+    font-size: 12px;
+    color: whitesmoke;
+
+}
+
+.links2 a {
+    text-decoration: none;
+}
+
+.links2 li {
+    list-style-type: none;
+}
+
+
+.navContainer {
+    background-image:linear-gradient(   to  bottom, rgba(190, 22, 22, 0.6),rgba(216, 64, 64, 0.3),rgba(243, 239, 239, 0.5)),url(./pexels-emily-ranquist-1205651.jpg);
+    /* background-color: aquamarine; */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.jumbotron {
+    height: auto;
+    width: 90%;
+    color: white;
+    padding: 300px 350px 0 50px;
+}
+
+.jumbotron button {
+    padding: 10px;
+    background-color: orange;
+    border-color: orange;
+    color: white;
+
+}
